@@ -71,9 +71,9 @@ The activation used for the output layer was "sigmoid"
 
 
 ## Summary
-From the results it can be seen that from the models investigated, they have not been able to reach the target accuracy of 75%. The accuracy seemed little sensitive to doubling the nodes and then adding another layer from the starting point. 
+From the results it can be seen that from the models investigated, they have not been able to reach the target accuracy of 75%. The accuracy seemed relatively insensitive to doubling the nodes and then adding another layer from the starting point. However, the addition of the extra layer did give the best result of the three investigated.
 
-Because of the number of potential variables that can be changed it is suggested that the Keras Tuner is utilised to improve the model accuracy. 
+Because of the number of potential variables that can be changed it is suggested that the Keras Tuner is utilised to improve the model accuracy as the activation type applied can be included along with the number of Epochs as the items to investigate.
 
 
 
