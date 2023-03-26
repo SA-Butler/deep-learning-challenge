@@ -54,7 +54,7 @@ The activation used for the output layer was "sigmoid"
 ![2layer 54 36](https://user-images.githubusercontent.com/113118793/227781527-f9c08523-ebfd-4d49-b5a2-75ac4d35c682.jpg)
 
 
-Results of Attempt 2
+Results of Attempt 3
 
 Layer 1 Nodes = 54
 
@@ -71,7 +71,9 @@ The activation used for the output layer was "sigmoid"
 
 
 ## Summary
+From the results it can be seen that from the models investigated, they have not been able to reach the target accuracy of 75%. The accuracy seemed little sensitive to doubling the nodes and then adding another layer from the starting point. 
 
+Because of the number of potential variables that can be changed it is suggested that the Keras Tuner is utilised to improve the model accuracy. 
 
 
 
