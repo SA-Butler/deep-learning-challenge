@@ -31,8 +31,11 @@ Following on from the compile. train and evaluate stage, two attempts were made 
 Results of Attempt 1
 
 Layer 1 Nodes = 27
+
 Layer 2 Nodes = 18
+
 The activation used for both hidden layers was "LeakyReLU"
+
 The activation used for the output layer was "sigmoid"
 
 ![2layers_27-18](https://user-images.githubusercontent.com/113118793/227781221-b65eec26-5fdb-4c6d-a5d7-5eefafc76bd5.jpg)
@@ -41,8 +44,11 @@ The activation used for the output layer was "sigmoid"
 Results of Attempt 2
 
 Layer 1 Nodes = 54
+
 Layer 2 Nodes = 36
+
 The activation used for both hidden layers was "LeakyReLU"
+
 The activation used for the output layer was "sigmoid"
 
 ![2layer 54 36](https://user-images.githubusercontent.com/113118793/227781527-f9c08523-ebfd-4d49-b5a2-75ac4d35c682.jpg)
@@ -51,9 +57,13 @@ The activation used for the output layer was "sigmoid"
 Results of Attempt 2
 
 Layer 1 Nodes = 54
+
 Layer 2 Nodes = 36
+
 Layer 3 Nodes = 36
+
 The activation used for all hidden layers was "LeakyReLU"
+
 The activation used for the output layer was "sigmoid"
 
 ![3layers-54-36-36](https://user-images.githubusercontent.com/113118793/227781548-4043dc82-7e5e-411d-b933-75234e6d3209.jpg)
