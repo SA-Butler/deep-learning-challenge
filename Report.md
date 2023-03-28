@@ -23,7 +23,7 @@ Google Colab was used to perfrom the processing steps by creating a neural netwo
 
 3. Optimise the Model
 
-Following on from the compile. train and evaluate stage, two attempts were made to improve the accuracy of the model. Initially the number of neurons for the two initial layers was doubled. Then another layer was added to the model with the number of nodes given a similar value to the previous attempt second layer. The accuracy was similarly evaluated as per the previous attempts.
+Following on from the compile, train and evaluate stage, two attempts were made to improve the accuracy of the model. Initially the number of neurons for the two initial layers was doubled. Then another layer was added to the model with the number of nodes given a similar value to the previous attempt second layer. The accuracy was similarly evaluated as per the previous attempts.
 
 
 ## Results
