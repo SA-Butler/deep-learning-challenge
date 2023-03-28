@@ -39,6 +39,9 @@ The activation used for both hidden layers was "LeakyReLU"
 
 The activation used for the output layer was "sigmoid"
 
+![2 layers 27,18](https://user-images.githubusercontent.com/113118793/228202099-fb4d077f-c96a-40b0-aefa-e6be14c96ece.jpg)
+
+
 ![2layers_27-18](https://user-images.githubusercontent.com/113118793/227781221-b65eec26-5fdb-4c6d-a5d7-5eefafc76bd5.jpg)
 
 
@@ -61,6 +64,9 @@ Therefore 3 changes were investigated:
 2. Adding an additional layer (Layer 3)
 
 3. Changing the activation function from "LeakyReLU" to "tanh" for the hidden layers. 
+
+![optimised-conditions](https://user-images.githubusercontent.com/113118793/228201815-2ca3944f-2eb5-4309-a2f0-617150e745cb.jpg)
+
 
 ![optimised-soup](https://user-images.githubusercontent.com/113118793/228200662-b5a60be7-0df6-4bbf-b7f2-ecd8ee84ecca.jpg)
 
