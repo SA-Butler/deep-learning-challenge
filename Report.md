@@ -42,20 +42,7 @@ The activation used for the output layer was "sigmoid"
 ![2layers_27-18](https://user-images.githubusercontent.com/113118793/227781221-b65eec26-5fdb-4c6d-a5d7-5eefafc76bd5.jpg)
 
 
-Results of Attempt 2
-
-Layer 1 Nodes = 54
-
-Layer 2 Nodes = 36
-
-The activation used for both hidden layers was "LeakyReLU"
-
-The activation used for the output layer was "sigmoid"
-
-![2layer 54 36](https://user-images.githubusercontent.com/113118793/227781527-f9c08523-ebfd-4d49-b5a2-75ac4d35c682.jpg)
-
-
-Results of Attempt 3
+Results of Optimised Attempt
 
 Layer 1 Nodes = 54
 
@@ -63,19 +50,27 @@ Layer 2 Nodes = 36
 
 Layer 3 Nodes = 36
 
-The activation used for all hidden layers was "LeakyReLU"
+The activation used for all hidden layers was "tanh"
 
 The activation used for the output layer was "sigmoid"
 
-![3layers-54-36-36(2)](https://user-images.githubusercontent.com/113118793/228180652-2e7d2996-ca10-436e-bd76-61b17ff25beb.jpg)
+Therefore 3 changes were investigated:
+
+1. Doubling the number of nodes in the original layers
+
+2. Adding an additional layer (Layer 3)
+
+3. Changing the activation function from "LeakyReLU" to "tanh" for the hidden layers. 
+
+![optimised-soup](https://user-images.githubusercontent.com/113118793/228200662-b5a60be7-0df6-4bbf-b7f2-ecd8ee84ecca.jpg)
 
 
 
 
 ## Summary
-From the results it can be seen that from the models investigated, they have not been able to reach the target accuracy of 75%. The accuracy seemed relatively insensitive to doubling the nodes and then adding another layer (3 total) from that of the starting point. 
+From the results it can be seen that from the optimised changes investigated, they have not been able to reach the target accuracy of 75%. The accuracy seemed relatively insensitive to doubling the nodes and then adding another layer (3 total) from that of the starting point. 
 
-Because of the number of potential variables that can be changed it is suggested that the Keras Tuner is utilised to see if an improved model accuracy can be found. This will enable varying activation types to be included along with the number of Epochs, therefore giving a much greater chance of finding an optimum model. 
+Because of the number of potential variables that can be changed it is suggested that the Keras Tuner is utilised to see if an improved model accuracy can be found. This will enable evaluating further activation functions to be included along with the number of Epochs, therefore giving a much greater chance of finding an optimum model. 
 
 
 
