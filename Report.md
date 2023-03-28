@@ -18,7 +18,8 @@ The data was then split to training and testing datasets. The aforementioned Sta
 2. Compile, Train and Evaluate the Model
 
 Google Colab was used to perfrom the processing steps by creating a neural network model by assigning the features and nodes for each layer using TensorFlow and Keras. 
-2 Hidden layers were used and an activation layer applied to each layer. The model was then compiled and trained and the loss and accuracy determined.
+2 Hidden layers were used and an activation layer applied to each layer. The nmber of nodes in Layer 1 was set as 3 times the number of features to be evaluatedn(3 x 9 = 27). 
+The model was then compiled and trained and the loss and accuracy determined.
 
 
 3. Optimise the Model
