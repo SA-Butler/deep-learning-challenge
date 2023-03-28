@@ -66,7 +66,8 @@ The activation used for all hidden layers was "LeakyReLU"
 
 The activation used for the output layer was "sigmoid"
 
-![3layers-54-36-36](https://user-images.githubusercontent.com/113118793/227781548-4043dc82-7e5e-411d-b933-75234e6d3209.jpg)
+![3layers-54-36-36(2)](https://user-images.githubusercontent.com/113118793/228180652-2e7d2996-ca10-436e-bd76-61b17ff25beb.jpg)
+
 
 
 
